@@ -16,3 +16,5 @@ function returnNewFunctionOf(functionToBeCopied, thisVal) {
   newfn = functionToBeCopied.bind(thisVal);
     return newfn;
 }
+
+#comment
